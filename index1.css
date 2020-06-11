@@ -1,0 +1,94 @@
+.homePage {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafbfb;
+  }
+  .cardHomePage {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow:  0 2px 4px rgba(0,0,0,0.07);
+  }
+  .rowPadding {
+    padding: 35px;
+  }
+  .textPaddingLeft {
+    padding-left: 60px;
+  }
+  .homeLeftPart {
+    display: flex;
+    align-items: center;
+  }
+  .headText {
+    font-size: 40px;
+    font-weight: 700;
+    color: #999999;
+    line-height: 1.2;
+    padding-bottom: 10px;
+  }
+  .headTextBlack {
+    color: #000;
+  }
+  .backgroundImage {
+    position: relative;
+  }
+  .image3{
+    position: absolute;
+    height: 100%;
+    width: 38%;
+    top:6%;
+    left: 53%;
+  }
+  .image2
+  {
+    position: absolute;
+    height: 100%;
+    width: 56%;
+    top: -10%;
+    left: 15%;
+}
+.image4
+{
+    position: absolute;
+    height: 100%;
+    width: 56%;
+    top: 25%;
+    left: 20git%;
+}
+  
+  .buttonStyle {
+    color: #f0782d;
+    background-color: #fff;
+    padding: 10px 17px;
+    border-radius: 8px;
+    border: 1px solid #fff0d4;
+    font-weight: 600;
+  }
+  @media screen and (max-width: 768px) {
+    .rowPadding {
+      padding: 20px !important;
+    }
+    .textPaddingLeft {
+      padding-left: 0px;
+    }
+    .headText {
+      text-align: center;
+    }
+    .homePage {
+      padding: 0px !important;
+    }
+    .buttonStyle {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+    }
+    .homeRightPart {
+      padding: 35px 0px 0px 0px !important;
+    }
+    .cardHomePage {
+      background-color: #fff;
+      border-radius: 0px;
+      box-shadow:none !important;
+    }
+  }
