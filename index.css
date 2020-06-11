@@ -1,33 +1,33 @@
-.homePage {
+.Page {
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: #fafbfb;
   }
-  .cardHomePage {
+  .card1 {
     background-color: #fff;
     border-radius: 40px;
     box-shadow:  0 2px 4px rgba(0,0,0,0.07);
   }
-  .rowPadding {
+  .row1 {
     padding: 35px;
   }
-  .textPaddingLeft {
+  .Left {
     padding-left: 60px;
   }
-  .homeLeftPart {
+  .Leftside {
     display: flex;
     align-items: center;
   }
-  .headText {
+  .header {
     font-size: 40px;
     font-weight: 700;
     color: #999999;
     line-height: 1.2;
     padding-bottom: 10px;
   }
-  .headTextBlack {
+  .header1 {
     color: #000;
   }
   .backgroundImage {
@@ -37,8 +37,8 @@
     position: absolute;
     height: 100%;
     width: 38%;
-    top:6%;
-    left: 53%;
+    top:8%;
+    left: 51%;
   }
   .image2
   {
@@ -57,7 +57,7 @@
     left: 20%;
 }
   
-  .buttonStyle {
+  .button1 {
     color: #f0782d;
     background-color: #fff;
     padding: 10px 17px;
@@ -66,29 +66,36 @@
     font-weight: 600;
   }
   @media screen and (max-width: 768px) {
-    .rowPadding {
+    .row1 {
       padding: 20px !important;
     }
-    .textPaddingLeft {
+    .Left {
       padding-left: 0px;
     }
-    .headText {
+    .header {
       text-align: center;
     }
-    .homePage {
+    .Page {
       padding: 0px !important;
     }
-    .buttonStyle {
+    .button1 {
       width: 100% !important;
       display: flex;
       justify-content: center;
     }
-    .homeRightPart {
+    .rightside {
       padding: 35px 0px 0px 0px !important;
     }
-    .cardHomePage {
+    .card1 {
       background-color: #fff;
       border-radius: 0px;
       box-shadow:none !important;
+    }
+    .header {
+      font-size: 20px;
+      font-weight: 700;
+      color: #999999;
+      line-height: 1.2;
+      padding-bottom: 10px;
     }
   }
